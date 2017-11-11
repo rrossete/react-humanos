@@ -14,6 +14,7 @@ class Post extends Component {
       likes: 0,
       isFavorite: false,
       comments: ['Olá']
+
     }
   }
 
@@ -59,6 +60,8 @@ class Post extends Component {
       localStorage.setItem(this.props.storageKey, actualSatage);
 
     }
+
+  
   
   render() {
     let favoriteText = 'FAVORITO';
